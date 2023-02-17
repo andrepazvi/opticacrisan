@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*----- INICIO HEADER-------*/
+
+
+.logo img {
+    border: 5px solid rgb(0,168,224);
+    width: 130px;
+    background-color: rgb(232,231,231);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(185,184,184);
+}
+
+.df-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0,116,177);;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo p {
+    margin: 30px 50px;
+}
+
+.df-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.df-ul li {
+    margin: 10px;
+}
+
+.crisan {
+    color: rgb(244, 247, 244);
+}
+
+/*----- FIN HEADER-------*/
+
+
+/*----- INICIO MAIN INDEX-------*/
+
+.tarjetitas {
+    display: flex;
+    justify-content: center;
+}
+
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(34, 57%, 70%);
+
+}
+
+
+
+.card {
+    background-color: rgb(78, 227, 194);
+    padding: 20px;
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/*----- FIN MAIN INDEX-------*/
+ 
+/*----- COMIENZA PAGINA CONTACTO-------*/
+
+.df-main-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+    color: hsl(34, 57%, 70%);
+}
+
+.main-form {
+    width: 80vw;
+    margin: 10px 0;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,213,253,1) 100%);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenido {
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+}
+
+.estilo-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    color:hsl(0, 0%, 0%);
+    text-align: center;
+    width: 300px;
+    font-weight:500;
+}
+
+.input {
+    display: block;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    border: 1px solid hsl(120, 100%, 25%);
+
+}
+
+.boton {
+    outline: none;
+    color: hsl(271, 76%, 53%);
+    background-color: hsl(160, 100%, 75%);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.boton:hover {
+    background-color: hsl(180, 100%, 50%);
+}
+
+.subtitulo {
+    margin: 10px 0;
+    color: aliceblue;
+    text-align: center;
+}
+
+/*----- FIN PAGINA CONTACTO-------*/
+
+/*-----INICIO MAIN VER MAS Y QUIENES SOMOS-------*/
+
+.segunda {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    font-style: oblique;
+    text-align: center;
+  
+  }
+  
+  .segunda_hoja {
+      color: hsl(34, 57%, 70%);
+      font-size: 60px;
+  }
+  
+  .mi {
+      font-size: 20px;
+      justify-content: center;
+      line-height: 40px;
+  }
+  
+  #mapa {
+      margin: auto;
+      padding: 30px;
+      align-items: center;
+      justify-content: center;
+      width: 600px;   
+  }
+
+.mas_texto {
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 30px; 
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+/*----- FIN MAIN VER MAS Y QUIENES SOMOS-------*/
+
+/*----- INICIO DE MAIN LENTES DE SOL-------*/
+
+.error {
+    color: burlywood;
+    text-align: center;
+
+}
+
+.boton {
+    background-color: pink;
+    border-color: rgb(117, 177, 236);
+    text-decoration: none; 
+
+}
+
+/*----- FIN MAIN LENTES DE SOL-------*/
+
+/*-----INICIO FOOTER-------*/
+
+.bg-footer {
+    background-color: rgb(191,220,127);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.type-white {
+    color: azure;
+}
+
+.redes a i {
+     font-size: 20px;
+     text-align: center;
+     padding: 5px 10px;
+}
+
+.redes a i:hover {
+    transform: scale(1.5);
+    transition: all 1s ease;
+    color: rgb(21, 165, 179);
+}
+/*----- FIN FOOTER-------*/
+
+/*----- MEDIA QUERIES-------*/
+
+@media screen and (max-width: 1000px) { 
+    
+    .df-header {
+        flex-direction:column ;
+    }
+
+    .df-ul {
+        flex-direction: column;
+    }
+
+    .boton {
+        justify-content: center;
+    }
+
+    .contenido {
+        width: min-content;
+    }
+
+    .main-form {
+        width: min-content;
+        padding: 0 0 20px 0
+    }
+ }
