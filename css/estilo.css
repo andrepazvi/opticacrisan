@@ -64,14 +64,21 @@ a {
 .tarjetitas {
     display: flex;
     justify-content: center;
+    gap: 16px;
 }
 
 .portada {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: hsl(34, 57%, 70%);
+    background-image: url(../img/fondo5.jpg);
+    height: 100vh;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada h1 {
+    color: hsl(34, 57%, 70%);
+    background-color: hsla(0, 0%, 0%, 0.418);
 }
 
 
@@ -256,7 +263,7 @@ a {
 
 /*----- MEDIA QUERIES-------*/
 
-@media screen and (max-width: 1000px) { 
+@media screen and (min-width: 300px) and (max-width: 767px) { 
     
     .df-header {
         flex-direction:column ;
@@ -278,4 +285,6 @@ a {
         width: min-content;
         padding: 0 0 20px 0
     }
+
+    
  }
