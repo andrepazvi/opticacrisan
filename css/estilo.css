@@ -19,7 +19,7 @@
 
 a {
     text-decoration: none;
-    color: rgb(185, 184, 184);
+    color: rgb(237, 241, 237);
 }
 
 .df-header {
@@ -51,10 +51,15 @@ a {
 
 .df-ul li {
     margin: 10px;
+    font-weight: 600;
+    font-size: medium;
+
 }
 
 .crisan {
-    color: rgb(244, 247, 244);
+    color: rgb(233, 241, 233);
+    font-size: 100%;
+
 }
 
 /*----- FIN HEADER-------*/
@@ -82,6 +87,11 @@ a {
     background-color: hsla(0, 0%, 0%, 0.418);
 }
 
+h1:hover {
+    background: rgb(36, 73, 79);
+    transition: all 1s ease;
+}
+
 
 
 .card {
@@ -93,6 +103,8 @@ a {
     flex-direction: column;
     gap: 10px;
 }
+
+
 
 
 /*----- FIN MAIN INDEX-------*/
@@ -199,7 +211,7 @@ a {
     line-height: 40px;
 }
 
-#mapa {
+.mapa {
     margin: auto;
     padding: 30px;
     align-items: center;
@@ -214,6 +226,13 @@ a {
     padding: 30px;
     display: flex;
     justify-content: flex-end;
+
+}
+
+.ubicacionlocal {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -252,7 +271,7 @@ h2 {
 /*-----INICIO FOOTER-------*/
 
 .bg-footer {
-    background-color: rgb(191, 220, 127);
+    background-color: rgb(27, 27, 26);
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -300,6 +319,11 @@ h2 {
         justify-content: center;
     }
 
+    .row {
+
+        --bs-gutter-x: 0;
+        
+        }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
@@ -317,16 +341,20 @@ h2 {
 
     .contenido {
         width: min-content;
+        padding: 0%;
     }
 
     .main-form {
-        width: min-content;
+        width: 100vw;
         padding: 0 0 20px 0
+    }
+
+    input {
+        width: min-content;
     }
 
     .tarjetitas {
         flex-direction: column;
-
     }
 
     .davinci {
@@ -343,6 +371,15 @@ h2 {
         background-color: blue;
     }
 
-    
+    .card {
+        width: 300px;
+    }
+
+    section {
+       display: flex;
+       align-items: center;
+
+    }
+
 }
 
