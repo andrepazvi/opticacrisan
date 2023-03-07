@@ -309,7 +309,6 @@ h2 {
         display: flex;
         align-items: center;
         margin-top: 25px;
-        background-color: blueviolet;
     
     }
 
@@ -365,10 +364,6 @@ h2 {
         width: 100%;
         display: flex;
         flex-wrap: nowrap;
-    }
-
-    .mi {
-        background-color: blue;
     }
 
     .card {
