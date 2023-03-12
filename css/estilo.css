@@ -27,7 +27,6 @@ a {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(0, 116, 177);
-    ;
     flex-direction: row;
     padding: 15px;
 }
@@ -47,6 +46,8 @@ a {
     align-items: center;
     justify-content: center;
     list-style: none;
+    padding: 1px;
+
 }
 
 .df-ul li {
@@ -62,6 +63,7 @@ a {
     font-weight: 600;
 
 }
+
 
 /*----- FIN HEADER-------*/
 
@@ -371,11 +373,8 @@ h2 {
 
     .df-ul {
         flex-direction: column;
-    }
-
-    .boton {
-        justify-content: center;
-    }
+        
+    } 
 
     .contenido {
         width: min-content;
