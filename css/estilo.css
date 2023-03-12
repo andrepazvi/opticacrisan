@@ -39,7 +39,7 @@ a {
 }
 
 .logo p {
-    margin: 30px 50px;
+    margin: 30px;
 }
 
 .df-ul {
@@ -58,7 +58,8 @@ a {
 
 .crisan {
     color: rgb(233, 241, 233);
-    font-size: 100%;
+    font-size: 1.5rem;
+    font-weight: 600;
 
 }
 
@@ -71,31 +72,35 @@ a {
     display: flex;
     justify-content: center;
     gap: 16px;
+    margin: 15px;
 }
 
 .portada {
-    background-image: url(../img/fondo5.jpg);
+    
     height: 100vh;
-
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,231,233,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.card-body {
+    margin-bottom: 20px;
+}
+
 .portada h1 {
-    color: hsl(34, 57%, 70%);
-    background-color: hsla(0, 0%, 0%, 0.418);
+    color: #37649d;
 }
 
 h1:hover {
-    background: rgb(36, 73, 79);
+    background: rgb(58, 166, 183);
     transition: all 1s ease;
 }
 
 
-
 .card {
-    background-color: rgb(78, 227, 194);
+    background-color: rgb(94, 162, 147);
     padding: 20px;
     width: 350px;
 
@@ -117,7 +122,7 @@ h1:hover {
     align-items: center;
     flex-direction: column;
     margin: 20px 0;
-    color: hsl(34, 57%, 70%);
+    color: #37649d;
 }
 
 .main-form {
@@ -147,7 +152,7 @@ h1:hover {
 }
 
 .label {
-    color: hsl(0, 0%, 0%);
+    color: #000000;
     text-align: center;
     width: 300px;
     font-weight: 500;
@@ -162,14 +167,15 @@ h1:hover {
     text-align: center;
     outline: none;
     padding: 10px;
-    border: 1px solid hsl(120, 100%, 25%);
+    border: 1px solid #008000;
+    resize: none;
 
 }
 
 .boton {
     outline: none;
-    color: hsl(271, 76%, 53%);
-    background-color: hsl(160, 100%, 75%);
+    color: #8a2ce2;
+    background-color: #80ffd4;
     font-size: 18px;
     text-transform: uppercase;
     padding: 10px;
@@ -178,7 +184,7 @@ h1:hover {
 }
 
 .boton:hover {
-    background-color: hsl(180, 100%, 50%);
+    background-color: #00ffff;
 }
 
 .subtitulo {
@@ -201,7 +207,7 @@ h1:hover {
 }
 
 .segunda_hoja {
-    color: hsl(34, 57%, 70%);
+    color: #37649d;
     font-size: 60px;
 }
 
@@ -209,6 +215,7 @@ h1:hover {
     font-size: 20px;
     justify-content: center;
     line-height: 40px;
+    padding: 10px 20px;
 }
 
 .mapa {
@@ -223,9 +230,10 @@ h1:hover {
     align-items: center;
     flex-direction: column;
     margin: auto;
-    padding: 30px;
     display: flex;
     justify-content: flex-end;
+    line-height: 40px;
+    padding: 10px 20px;
 
 }
 
@@ -241,7 +249,7 @@ h1:hover {
 /*----- INICIO DE MAIN LENTES DE SOL-------*/
 
 h2 {
-    color: burlywood;
+    color: #3d4bba;
 }
 
 .img-lentesdesol {
@@ -253,7 +261,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: burlywood;
+    color: #37649d;
     margin: 10px;
     box-shadow: 10px 14px 5px 0px rgba(65, 142, 62, 0.42);
     -webkit-box-shadow: 10px 14px 5px 0px rgba(65, 142, 62, 0.42);
@@ -271,7 +279,7 @@ h2 {
 /*-----INICIO FOOTER-------*/
 
 .bg-footer {
-    background-color: rgb(27, 27, 26);
+    background-color: #1b1b1a;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -291,6 +299,37 @@ h2 {
     transform: scale(1.5);
     transition: all 1s ease;
     color: rgb(21, 165, 179);
+}
+
+.boton1 {
+    font-size: 1rem;
+    margin: 5px;
+    background-color: #f0f8ff;
+    color: #0b0b0d;
+    width: 75px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+.boton1:hover {
+    scale: 1.5;
+    transition: all ease 2s;
+    background-color: rgb(21, 165, 179);
+    color: #3d4bba;
+}
+
+.btn-lente {
+    background-color: #51a1e2;
+    font-weight: 600;
+}
+
+.btn-lente:hover {
+    scale: 1.1;
+    transition: all ease 2s;
+    background-color: rgb(21, 165, 179);
+    color: #3d4bba;
 }
 
 /*----- FIN FOOTER-------*/
