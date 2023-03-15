@@ -1,0 +1,61 @@
+
+/*----- INICIO HEADER-------*/
+
+.logo img {
+    border: 5px solid rgb(0, 168, 224);
+    width: 130px;
+    background-color: rgb(232, 231, 231);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(237, 241, 237);
+}
+
+.df-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $colorprincipal;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo p {
+    margin: 30px;
+}
+
+.df-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 1px;
+
+}
+
+.df-ul li {
+    margin: 10px;
+    font-weight: 600;
+    font-size: medium;
+
+}
+
+.crisan {
+    color: rgb(233, 241, 233);
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.container-fluid {
+    background-color: rgb(58, 166, 183);
+}
+
+/*----- FIN HEADER-------*/

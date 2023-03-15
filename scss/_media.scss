@@ -1,0 +1,80 @@
+/*----- MEDIA QUERIES-------*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .davinci {
+        width: 100%;
+    }
+    
+    }
+    
+    .mi {
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+    
+    }
+
+     .mapa {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .row {
+
+        --bs-gutter-x: 0;
+        
+        }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .df-header {
+        flex-direction: column;
+    }
+
+    .df-ul {
+        flex-direction: column;
+        
+    } 
+
+    .contenido {
+        width: min-content;
+        padding: 0%;
+    }
+
+    .main-form {
+        width: 100vw;
+        padding: 0 0 20px 0
+    }
+
+    input {
+        width: min-content;
+    }
+
+    .tarjetitas {
+        flex-direction: column;
+    }
+
+    .davinci {
+        width: 100%;
+    }
+
+    .mapa {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    section {
+       display: flex;
+       align-items: center;
+
+    }
+
+}
+
