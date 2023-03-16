@@ -3,129 +3,110 @@
 /*----- INICIO MAIN INDEX-------*/
 
 .tarjetitas {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin: 15px;
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+	margin: 15px;
 }
-
 .portada {
-    
-    height: 100vh;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,231,233,1) 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	height: 100vh;
+	background: $color_rosado;
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,231,233,1) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h1 {
+		color: $color_azulado;
+	}
 }
-
 .card-body {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
-
-.portada h1 {
-    color: #37649d;
+h1 {
+	&:hover {
+		background: rgb(58, 166, 183);
+		transition: all 1s ease;
+	}
 }
-
-h1:hover {
-    background: rgb(58, 166, 183);
-    transition: all 1s ease;
-}
-
-
 .card {
-    background-color: rgb(94, 162, 147);
-    padding: 20px;
-    width: 350px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+	background-color: $background_verde2;
+	padding: 20px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
-
-
 
 
 /*----- FIN MAIN INDEX-------*/
 
 
-
 /*-----INICIO MAIN VER MAS Y QUIENES SOMOS-------*/
 
 .segunda {
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    font-style: oblique;
-    text-align: center;
-
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+	font-style: oblique;
+	text-align: center;
+	&_hoja {
+		color:$color_azulado;
+		font-size: 60px;
+	}
 }
-
-.segunda_hoja {
-    color: #37649d;
-    font-size: 60px;
-}
-
 .mi {
-    font-size: 20px;
-    justify-content: center;
-    line-height: 40px;
-    padding: 10px 20px;
+	font-size: 20px;
+	justify-content: center;
+	line-height: 40px;
+	padding: 10px 20px;
 }
-
 .mapa {
-    margin: auto;
-    padding: 30px;
-    align-items: center;
-    justify-content: center;
-    width: 600px;
+	margin: auto;
+	padding: 30px;
+	align-items: center;
+	justify-content: center;
+	width: 600px;
 }
-
 .mas_texto {
-    align-items: center;
-    flex-direction: column;
-    margin: auto;
-    display: flex;
-    justify-content: flex-end;
-    line-height: 40px;
-    padding: 10px 20px;
-
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
+	display: flex;
+	justify-content: flex-end;
+	line-height: 40px;
+	padding: 10px 20px;
 }
-
 .ubicacionlocal {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
+
 
 /*----- FIN MAIN VER MAS Y QUIENES SOMOS-------*/
 
 /*----- INICIO DE MAIN LENTES DE SOL-------*/
 
 h2 {
-    color: #3d4bba;
+	color: $color_morado;
 }
-
 .img-lentesdesol {
-    width: 20vw;
-    margin: 30px;
+	width: 20vw;
+	margin: 30px;
 }
-
 .peg-len {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #37649d;
-    margin: 10px;
-    box-shadow: 10px 14px 5px 0px rgba(65, 142, 62, 0.42);
-    -webkit-box-shadow: 10px 14px 5px 0px rgba(65, 142, 62, 0.42);
-    -moz-box-shadow: 10px 14px 5px 0px rgba(65, 142, 62, 0.42);
-    border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $color_azulado;
+	margin: 10px;
+	box-shadow: 10px 14px 5px 0px rgba(65, 142, 62, 0.42);
+	-webkit-box-shadow: 10px 14px 5px 0px rgba(65, 142, 62, 0.42);
+	-moz-box-shadow: 10px 14px 5px 0px rgba(65, 142, 62, 0.42);
+	border-radius: 15px;
 }
-
 .margin-p {
-    margin: 10px 10px;
+	margin: 10px 10px;
 }
 
 

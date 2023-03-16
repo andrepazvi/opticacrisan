@@ -1,57 +1,53 @@
 /*-----INICIO FOOTER-------*/
 
 .bg-footer {
-    background-color: #1b1b1a;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
+	background-color: $color_negro;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
 }
-
 .type-white {
-    color: azure;
+	color: $color_blanco;
 }
-
-.redes a i {
-    font-size: 20px;
-    text-align: center;
-    padding: 5px 10px;
+.redes {
+	a {
+		i {
+			font-size: 20px;
+			text-align: center;
+			padding: 5px 10px;
+			&:hover {
+				transform: scale(1.5);
+				transition: all 1s ease;
+				color: $background_calipso;
+			}
+		}
+	}
 }
-
-.redes a i:hover {
-    transform: scale(1.5);
-    transition: all 1s ease;
-    color: rgb(21, 165, 179);
-}
-
 .boton1 {
-    font-size: 1rem;
-    margin: 5px;
-    background-color: #f0f8ff;
-    color: #0b0b0d;
-    width: 75px;
-    text-align: center;
-    font-weight: 600;
-    border-radius: 5px;
-
+	font-size: 1rem;
+	margin: 5px;
+	background-color: $color_blanco;
+	color: $color_negro;
+	width: 75px;
+	text-align: center;
+	font-weight: 600;
+	border-radius: 5px;
+	&:hover {
+		scale: 1.5;
+		transition: all ease 2s;
+		background-color: $background_calipso;
+		color: $color_morado;
+	}
 }
-
-.boton1:hover {
-    scale: 1.5;
-    transition: all ease 2s;
-    background-color: rgb(21, 165, 179);
-    color: #3d4bba;
-}
-
 .btn-lente {
-    background-color: #51a1e2;
-    font-weight: 600;
-}
-
-.btn-lente:hover {
-    scale: 1.1;
-    transition: all ease 2s;
-    background-color: rgb(21, 165, 179);
-    color: #3d4bba;
+	background-color: $background-color_1;
+	font-weight: 600;
+	&:hover {
+		scale: 1.1;
+		transition: all ease 2s;
+		background-color: $background_calipso;
+		color: $color_morado;
+	}
 }
 
 /*----- FIN FOOTER-------*/

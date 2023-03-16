@@ -1,80 +1,71 @@
 /*----- COMIENZA PAGINA CONTACTO-------*/
 
 .df-main-contacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 20px 0;
-    color: #37649d;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 20px 0;
+	color: $color_azulado;
 }
-
 .main-form {
-    width: 80vw;
-    margin: 10px 0;
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 213, 253, 1) 100%);
-    border-radius: 20px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+	width: 80vw;
+	margin: 10px 0;
+	background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 213, 253, 1) 100%);
+	border-radius: 20px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
-
 .contenido {
-    width: 50%;
-    padding: 30px;
-    text-align: center;
+	width: 50%;
+	padding: 30px;
+	text-align: center;
 }
-
 .estilo-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-
 .label {
-    color: #000000;
-    text-align: center;
-    width: 300px;
-    font-weight: 500;
+	color: $color_negro;
+	text-align: center;
+	width: 300px;
+	font-weight: 500;
 }
-
 .input {
-    display: block;
-    width: 300px;
-    border-radius: 5px;
-    font-size: 16px;
-    margin: 10px 0;
-    text-align: center;
-    outline: none;
-    padding: 10px;
-    border: 1px solid #008000;
-    resize: none;
-
+	display: block;
+	width: 300px;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 10px 0;
+	text-align: center;
+	outline: none;
+	padding: 10px;
+	border: 1px solid #008000;
+	resize: none;
 }
-
 .boton {
-    outline: none;
-    color: #8a2ce2;
-    background-color: #80ffd4;
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 10px;
-    border-radius: 5px;
-    font-weight: 500;
+	outline: none;
+	color: $color_mora;
+	background-color: $background_verde;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: 500;
+	&:hover {
+		background-color: $background_calipso2;
+	}
 }
-
-.boton:hover {
-    background-color: #00ffff;
-}
-
 .subtitulo {
-    margin: 10px 0;
-    color: aliceblue;
-    text-align: center;
+	margin: 10px 0;
+	color: $color_blanco;
+	text-align: center;
 }
+
 
 /*----- FIN PAGINA CONTACTO-------*/
