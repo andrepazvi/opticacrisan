@@ -20,7 +20,9 @@
   justify-content: center;
   align-items: center; }
   .portada h1 {
-    color: #37649d; }
+    color: #37649d;
+    padding: 0 10px;
+    text-align: center; }
 
 .card-body {
   margin-bottom: 20px; }
@@ -42,12 +44,12 @@ h1:hover {
 .segunda {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 45px;
   font-style: oblique;
   text-align: center; }
   .segunda_hoja {
     color: #37649d;
-    font-size: 60px; }
+    font-size: 40px; }
 
 .mi {
   font-size: 20px;
@@ -217,6 +219,11 @@ h2 {
   width: 130px;
   background-color: #e8e7e7; }
 
+.pd {
+  display: flex;
+  padding: 15px;
+  text-align: center; }
+
 a {
   text-decoration: none;
   color: #edf1ed; }
@@ -285,7 +292,7 @@ a {
     width: min-content;
     padding: 0%; }
   .main-form {
-    width: 100vw;
+    width: 96vw;
     padding: 0 0 20px 0; }
   input {
     width: min-content; }

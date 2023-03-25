@@ -17,6 +17,8 @@
 	align-items: center;
 	h1 {
 		color: $color_azulado;
+		padding: 0 10px;
+		text-align: center;
 	}
 }
 .card-body {
@@ -46,12 +48,12 @@ h1 {
 .segunda {
 	display: flex;
 	flex-direction: column;
-	gap: 80px;
+	gap: 45px;
 	font-style: oblique;
 	text-align: center;
 	&_hoja {
 		color:$color_azulado;
-		font-size: 60px;
+		font-size: 40px;
 	}
 }
 .mi {
