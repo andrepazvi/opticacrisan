@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+  <title> Optica Crisan | Stock disponible</title>
+
+  <meta name="keywords" content="lentes, contacto, óptico, stock, disponibilidad">
+  <meta name="description" content="esta página entrega información de cuántos lentes quedan">
+
+  <script src="https://kit.fontawesome.com/c22b481f22.js" crossorigin="anonymous"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+
+  <header class="df-header">
+    <div class="logo">
+      <a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+      <a href="../index.html">
+        <p class="crisan">OPTICA CRISAN</p>
+      </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid p-2">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="df-ul">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./modelos.html">Modelos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./historia.html">Historia</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main class="min-height">
+
+    <div class="segunda">
+      <h1 class="segunda_hoja">Disponibilidad de stock y modelos</h1>
+
+      <table id="stock-table" class="table">
+        <thead>
+          <tr>
+            <th scope="col">Modelo</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Las filas de la tabla se generarán dinámicamente desde JavaScript -->
+        </tbody>
+      </table>
+
+      <div>
+        <label for="modelo-input">Nombre del modelo:</label>
+        <input type="text" id="modelo-input">
+        <button id="consultar-btn">Consultar</button>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="bg-footer">
+    <p class="type-white"><i class="fa-regular fa-copyright"></i>Todos los derechos reservados</p>
+    <div class="redes">
+      <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script src="stock.js"></script>
+</body>
+
+</html>
